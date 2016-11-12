@@ -1,0 +1,21 @@
+Package: ilcym
+Type: Package
+Title: Insect Life Cycle Modeling
+Version: 1.0.0
+Author: person("Pablo", "Carhuapoma", , "p.carhuapoma@cgiar.org", role =
+    c("aut", "cre"))
+Depends:
+    R (>= 2.15.1)
+Maintainer: Who to complain to <CIP-ILCYMSupport@cgiar.org>
+Description: Insect Life Cycle Modeling software (based on ILCYM - version
+    3.0) facilitates the development of pest insect phenology models and provides
+    analytical tools for studying pest population ecology.
+License: GPL-3
+LazyData: TRUE
+BugReports: https://github.com/pabcarh/ilcym/issues
+Suggests:
+    knitr,testthat
+Collate:
+    'temp.R'
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
