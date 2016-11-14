@@ -17,5 +17,6 @@ Suggests:
     knitr,testthat
 Collate:
     'temp.R'
+    'findval.R'
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
