@@ -29,7 +29,4 @@ str(temp)
 \author{
 Pablo Carhuapoma Ramos
 }
-\seealso{
-Other example: \code{\link{findval}}
-}
 

@@ -6,10 +6,12 @@
 #'
 #' @param dat data frame.
 #' @param cate vector of characters.
-#' @return character a string; default is 'finished!'.
+#' 
+#' @return None.
 #' @author Pablo Carhuapoma Ramos
-#' @family example
-#' @example inst/examples/example_findval.R
+#' @examples
+#' #building
+#' 
 #' @export
 findval<-function(dat,cate)
 {n1=ncol(dat)

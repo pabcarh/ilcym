@@ -18,5 +18,16 @@ Suggests:
 Collate:
     'temp.R'
     'findval.R'
+    'verif.val.R'
+    'findval.num.R'
+    'verif.val.num.R'
+    'conteo.R'
+    'devath.R'
+    'PlotDevath.R'
+    'dev.tim.R'
+    'addmale.R'
+    'prueba.R'
+    'shape.R'
+    'modelcomp.R'
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
