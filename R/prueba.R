@@ -2,7 +2,7 @@
 #'
 #' no details
 #'
-#' @param model a character, dicotomic model ('logit','probit', 'cloglog')
+#' @param model integer value, non linear model (position)
 #' @param datashap data frame, estimated rates
 #' @param datao data frame
 #' @param ini numeric vector of the initial values for the modeling

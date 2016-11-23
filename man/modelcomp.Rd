@@ -9,7 +9,7 @@ modelcomp(test, model, matri, parametros, shap.estimados, coefi)
 \arguments{
 \item{test}{a character, dicotomic model selected('logit','probit', 'cloglog')}
 
-\item{model}{a character, dicotomic model ('logit','probit', 'cloglog')}
+\item{model}{integer value, non linear model (position)}
 
 \item{matri}{data frame, counts of insect by days and others variables}
 

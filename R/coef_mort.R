@@ -3,7 +3,7 @@
 #' no details
 #' 
 #' @param proc a character, type of variable (mortal, taza)
-#' @param modelm a character, non linear model
+#' @param modelm integer value, non linear model (position)
 #' @param estimor numeric vector, estimated coefficients of the nonlinear model
 #' @param stdmortg numeric vector, standar deviation estimated
 #' @param modelo a character, non linear model

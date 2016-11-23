@@ -9,7 +9,7 @@ grafshape(model, estshap, datashap, qtt, sdli, corrx = NULL, corry = NULL,
   grises = FALSE, scaleY, scaleX, est, estadios)
 }
 \arguments{
-\item{model}{a character, dicotomic model ('logit','probit', 'cloglog')}
+\item{model}{integer value, non linear model (position)}
 
 \item{estshap}{list of some numeric vectors, the parameters values estimated}
 

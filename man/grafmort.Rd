@@ -10,7 +10,7 @@ grafmort(proc, modelm, estimor, g, datm, corrx = NULL, corry = NULL, mini,
 \arguments{
 \item{proc}{a character, type of variable ("mortal", "taza")}
 
-\item{modelm}{a character, non linear model}
+\item{modelm}{integer value, non linear model (position)}
 
 \item{estimor}{numeric vector, estimated coefficients of the nonlinear model}
 

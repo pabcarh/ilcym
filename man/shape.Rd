@@ -7,7 +7,7 @@
 shape(model, datashap, datao, ini, coefi)
 }
 \arguments{
-\item{model}{a character, dicotomic model ('logit','probit', 'cloglog')}
+\item{model}{integer value, non linear model (position)}
 
 \item{datashap}{data frame, estimated rates}
 

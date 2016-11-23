@@ -8,7 +8,7 @@ prueba(model, datashap, datao, ini, corrx, corry, punt, labx, laby, titulo,
   grises = FALSE)
 }
 \arguments{
-\item{model}{a character, dicotomic model ('logit','probit', 'cloglog')}
+\item{model}{integer value, non linear model (position)}
 
 \item{datashap}{data frame, estimated rates}
 

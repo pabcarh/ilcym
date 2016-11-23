@@ -3,7 +3,7 @@
 #' no details
 #' 
 #' @param test a character, dicotomic model selected('logit','probit', 'cloglog')
-#' @param model a character, dicotomic model ('logit','probit', 'cloglog')
+#' @param model integer value, non linear model (position)
 #' @param matri data frame, counts of insect by days and others variables
 #' @param parametros numeric vector, the parameters values estimated
 #' @param shap.estimados data frame

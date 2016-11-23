@@ -2,7 +2,7 @@
 #'
 #' no details
 #' 
-#' @param model a character, dicotomic model ('logit','probit', 'cloglog')
+#' @param model integer value, non linear model (position)
 #' @param estshap list of some numeric vectors, the parameters values estimated
 #' @param datashap data frame, estimated rates
 #' @param qtt double, quantile of a normal distribution (p=0.95)
