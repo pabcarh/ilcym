@@ -4,7 +4,7 @@
 #' 
 #' @param opc integer value (1: life table data, 2: Cohort data)
 #' @param datos data frame
-#' @param estadios vector of length variable
+#' @param estadios character vector, all states
 #' @param est a character
 #' @param tp numeric vector of the constant temperature
 #' 

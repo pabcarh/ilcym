@@ -9,7 +9,7 @@ conteo(data, est)
 \arguments{
 \item{data}{data frame}
 
-\item{est}{character}
+\item{est}{character, current state}
 }
 \value{
 None

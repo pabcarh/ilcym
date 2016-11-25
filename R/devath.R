@@ -1,11 +1,11 @@
 #' devath
 #'
-#' no details
+#' Function to obtain a table of frequencies, statistics of the data, and model parameters of presence of change of stage with respect to the temperature and the logarithm of the days, without considering the intercept, and including the adjustment indicators and the intervals confidence.
 #'
 #' @param opc integer value (1: life table data, 2: Cohort data)
 #' @param datos data frame
 #' @param estadios vector of length variable
-#' @param est a character
+#' @param est a character, name of the state evaluated
 #' @param tp numeric vector of the constant temperature
 #' @param intervalo double, scale in days
 #' @param modelo a character, dicotomic model ('logit','probit', 'cloglog')
@@ -13,9 +13,8 @@
 #' 
 #' @return None
 #' @author Pablo Carhuapoma Ramos
-#' @examples
-#' #building
-#'
+#' @family example
+#' @example inst/examples/example_devath.R
 #' @export
 devath <- function(opc, datos, estadios, est, tp,intervalo,modelo,poli=1)
 {
@@ -139,7 +138,7 @@ devath <- function(opc, datos, estadios, est, tp,intervalo,modelo,poli=1)
   Develomep <- matri[,5]
   aicp <- suppressWarnings(warning(stats::AIC(modelop<-stats::glm(cbind(Develomep,muestra-Develomep) ~ Temperature - 1 + Slope, family = stats::binomial('probit')))))
   aicl <- suppressWarnings(warning(stats::AIC(modelol<-stats::glm(cbind(Develomep,muestra-Develomep) ~ Temperature - 1 + Slope, family = stats::binomial('logit')))))
-  aicc <- suppressWarnings(warning(stats::AIC(modeloc<-stats::glm(cbind(Develomep,muestra-Develomep) ~ Temperature - 1 + Slope, family = stats::AIC('cloglog')))))
+  aicc <- suppressWarnings(warning(stats::AIC(modeloc<-stats::glm(cbind(Develomep,muestra-Develomep) ~ Temperature - 1 + Slope, family = stats::binomial('cloglog')))))
   rp<-1-sum(((matri[,5]/matri[,6])-round(stats::fitted.values(modelop),4))^2)/sum(((matri[,5]/matri[,6])-mean(matri[,5]/matri[,6]))^2)
   r_ajusp<- 1 - ((length(matri[,2]) - 1) / (length(matri[,2]) - length(tp)+1)) * (1-rp)
   rl<-1-sum(((matri[,5]/matri[,6])-round(stats::fitted.values(modelol),4))^2)/sum(((matri[,5]/matri[,6])-mean(matri[,5]/matri[,6]))^2)

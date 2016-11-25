@@ -29,4 +29,8 @@ str(temp)
 \author{
 Pablo Carhuapoma Ramos
 }
+\seealso{
+Other example: \code{\link{PlotDevath}},
+  \code{\link{devath}}
+}
 

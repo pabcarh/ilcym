@@ -47,7 +47,7 @@ grafshape(model, estshap, datashap, qtt, sdli, corrx = NULL, corry = NULL,
 
 \item{est}{a character}
 
-\item{estadios}{vector of length variable}
+\item{estadios}{character vector, all states}
 }
 \value{
 None

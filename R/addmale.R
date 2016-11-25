@@ -4,7 +4,7 @@
 #'
 #' @param datapre data frame
 #' @param tp numeric vector of the constant temperature
-#' @param estadios vector of length variable
+#' @param estadios character vector, all states
 #' 
 #' @return None
 #' @author Pablo Carhuapoma Ramos

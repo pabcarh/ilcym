@@ -15,7 +15,7 @@ oviposicion(opc, datos, colum, mediana, estadios, tp = NULL)
 
 \item{mediana}{numeric vector}
 
-\item{estadios}{vector of length variable}
+\item{estadios}{character vector, all states}
 
 \item{tp}{numeric vector of the constant temperature}
 }

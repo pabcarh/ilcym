@@ -1,6 +1,6 @@
 #' PlotDevath
 #'
-#' no details
+#' A graph and some results obtained from the previous modeling with the function "devath", where also are the expected values and the confidence intervals of the same ones, for each temperature.
 #'
 #' @param matri data frame, counts of insect by days and others variables
 #' @param parametros numeric vector, slopes of modeling outputs
@@ -18,8 +18,9 @@
 #' 
 #' @return None
 #' @author Pablo Carhuapoma Ramos
-#' @examples
-#' #building
+#' @family example
+#' @example inst/examples/example_PlotDevath.R
+#' @export
 #'
 #' @export
 PlotDevath <- function(matri, parametros,test,corrx,lgx,lgy,tam,labx = NULL, laby = NULL,titulo=NULL,grises=FALSE,intervalo=intervalo,exis.val)

@@ -3,7 +3,7 @@
 #' no details
 #'
 #' @param data data frame
-#' @param est character
+#' @param est character, current state
 #'
 #' @return None
 #'

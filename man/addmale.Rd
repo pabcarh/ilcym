@@ -11,7 +11,7 @@ addmale(datapre, tp, estadios)
 
 \item{tp}{numeric vector of the constant temperature}
 
-\item{estadios}{vector of length variable}
+\item{estadios}{character vector, all states}
 }
 \value{
 None

@@ -11,7 +11,7 @@ mortality(opc, datos, estadios, est, tp)
 
 \item{datos}{data frame}
 
-\item{estadios}{vector of length variable}
+\item{estadios}{character vector, all states}
 
 \item{est}{a character}
 

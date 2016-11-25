@@ -6,7 +6,7 @@
 #' @param datos data frame
 #' @param colum integer value
 #' @param mediana numeric vector
-#' @param estadios vector of length variable
+#' @param estadios character vector, all states
 #' @param tp numeric vector of the constant temperature
 #' 
 #' @return None

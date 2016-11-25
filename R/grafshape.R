@@ -21,7 +21,7 @@
 #' @param scaleY double, interval for the Y axis range
 #' @param scaleX double, interval for the X axis range
 #' @param est a character
-#' @param estadios vector of length variable
+#' @param estadios character vector, all states
 #' 
 #' @return None
 #' @author Pablo Carhuapoma Ramos
